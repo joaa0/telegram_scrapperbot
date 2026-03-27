@@ -12,8 +12,8 @@ from enum import Enum
 # ─── Telegram ────────────────────────────────────────────────────────────────
 
 BOT_TOKEN: str = os.getenv("BOT_TOKEN", "7681639208:AAH-LtCh7238PTY5SjWfMzw9N95YVufiAlI")
-SOURCE_CHAT_ID: int = int(os.getenv("SOURCE_CHAT_ID", "-3634847213"))
-NOTIFY_CHAT_ID: int = int(os.getenv("NOTIFY_CHAT_ID", "-1003634847213"))
+SOURCE_CHAT_ID: int = int(os.getenv("SOURCE_CHAT_ID", "-0123456789"))
+NOTIFY_CHAT_ID: int = int(os.getenv("NOTIFY_CHAT_ID", "-1234567890000"))
 
 
 # ─── Regras de Compra ─────────────────────────────────────────────────────────

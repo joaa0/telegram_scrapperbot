@@ -78,11 +78,11 @@ BOT_TOKEN: str = "1234567890:AAFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 Para obter o ID numérico do canal/grupo:
 1. Encaminhe qualquer mensagem do canal para [@userinfobot](https://t.me/userinfobot)
-2. Ele retornará o `Chat ID` (será negativo para grupos/canais, ex: `-1001234567890`)
+2. Ele retornará o `Chat ID` (será negativo para grupos/canais, ex: `-1234567890000`)
 
 ```python
 # config.py
-SOURCE_CHAT_ID: int = -1001234567890  # substitua pelo ID real
+SOURCE_CHAT_ID: int = -1234567890000  # substitua pelo ID real
 ```
 
 ### 3. ID para Receber Notificações (seu chat pessoal)
@@ -91,7 +91,7 @@ SOURCE_CHAT_ID: int = -1001234567890  # substitua pelo ID real
 2. Copie seu `User ID` (número positivo)
 
 ```python
-NOTIFY_CHAT_ID: int = 987654321  # seu ID pessoal
+NOTIFY_CHAT_ID: int = 12345678  # seu ID pessoal
 ```
 
 ### 4. Adicionar o Bot ao Canal
